@@ -121,8 +121,8 @@ public class Create{
             players[0] = group[i].getPlayer(0);
             players[1] = group[i+1].getPlayer(1);     
             
-            playersTwo[0] = group[i].getPlayer(0);
-            playersTwo[1] = group[i+1].getPlayer(1); 
+            playersTwo[0] = group[i+1].getPlayer(0);
+            playersTwo[1] = group[i].getPlayer(1); 
             //make group
             secondRound[j] = createGroup(gn, players);
             secondRound[j+8] = createGroup((gn+8), playersTwo);
