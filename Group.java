@@ -10,6 +10,7 @@ public class Group{
         this.groupNumber = groupNumber;
         this.playerNames = playerNames;
     }
+
     public int getGroupNumber(){
         return groupNumber;
     }
