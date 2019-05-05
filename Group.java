@@ -26,7 +26,7 @@ public class Group{
     public Players getPlayer(int j){
         Players player = null;
         for(int i = 0; i <playerNames.length;i++){
-            if(playerNames[j] == playerNames[i]){
+            if(playerNames[j].getID() == playerNames[i].getID()){
                 player  =  playerNames[i];
             }
         }
@@ -82,7 +82,6 @@ public class Group{
     }
 
     public int size(){
-        
         for(int i = 0; i <playerNames.length;i++){
             numberOfPlayers++;
         }
